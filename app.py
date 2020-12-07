@@ -93,7 +93,7 @@ state = st.sidebar.selectbox('State', STATES, index=21)
 country = "United States" # hard code country because we only have data for US
 
 st.sidebar.markdown(f'#### once you enter your data the map should present your location with a green dot, and the McDonald\'s stores with red dots!')
-
+st.sidebar.markdown(f'\n\n#### Made by Zach for CS230 🙂')
 # we must put this logic inside a try except block to not show potential errors when user inputs a bad address
 # instead, we ask them to revise the address they input and check for errors (makes for a better user experience)
 try:
